@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta property="og:site_name" content="Primepillar Profile | Web Native">
+    <meta property="og:title" content="Primepillar Profile | Web Native">
+    <meta property="og:description" content="Primepillar Company Profile | Web Native by Babul">
+    <meta property="og:image" content="https://primepillar.vercel.app/live.jpg">
+    <meta content="Primepillar Company Profile | Web Native by Babul" name="description">
+    <meta content="primepillar, company, profile, web, native, babul" name="keywords">
+    <link href="./assets/img/prime.jpg" rel="icon">
+    <link href="assets/img/prime.jpg" rel="apple-touch-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <title>Babul PDF Viewer</title>
+</head>
+
+<body>
+
+    <!-- LOADING SCREEN -->
+    <div id="loading-screen" role="status" aria-label="Loading PDF viewer">
+
+        <!-- Keep logo.png in the same folder as this HTML file -->
+        <img src="./assets/img/logo.svg" alt="Babul Logo" class="loading-logo">
+
+        <div class="loader" aria-hidden="true"></div>
+
+        <p class="loading-text">Loading your document</p>
+    </div>
+
+
+    <!-- DESKTOP PDF VIEWER -->
+    <div id="desktop-pdf-container">
+        <embed id="desktop-embed" type="application/pdf">
+    </div>
+
+
+    <!-- MOBILE PDF.JS VIEWER -->
+    <div id="mobile-pdf-container">
+        <iframe id="mobile-iframe" title="PDF Document Viewer" allowfullscreen>
+        </iframe>
+    </div>
+
+
+    <!-- FLOATING CREATOR FOOTER -->
+    <footer id="creator-footer">
+        <p>Made with ❤️ by <a href="https://devbabul.vercel.app" target="_blank">Babul Khan</a></p>
+    </footer>
+
+
+    <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>
