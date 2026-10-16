@@ -1,5 +1,5 @@
 const pdfUrl = new URL(
-    './assets/pdf/Primepillar-profile.pdf',
+    './assets/pdf/Primepillar-Profile.pdf',
     window.location.href
 ).href;
 
